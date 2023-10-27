@@ -1,0 +1,10 @@
+<KerasTensor: shape=(None, 156, 64) dtype=float32 (created by layer 'sequential_33')>
+<KerasTensor: shape=(None, 156, 6) dtype=float32 (created by layer 'sequential_34')>
+<KerasTensor: shape=(None, 6, 64) dtype=float32 (created by layer 'sequential_35')>
+<KerasTensor: shape=(None, 156, 6) dtype=float32 (created by layer 'activation_11')>
+<KerasTensor: shape=(None, 6, 156) dtype=float32 (created by layer 'permute_8')>
+<KerasTensor: shape=(None, 6, 220) dtype=float32 (created by layer 'concatenate_8')>
+<KerasTensor: shape=(None, 32) dtype=float32 (created by layer 'lstm_10')>
+<KerasTensor: shape=(None, 32) dtype=float32 (created by layer 'dropout_36')>
+<KerasTensor: shape=(None, 38) dtype=float32 (created by layer 'dense_9')>
+<KerasTensor: shape=(None, 38) dtype=float32 (created by layer 'activation_12')>
